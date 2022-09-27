@@ -1,4 +1,4 @@
-# Unfollowe
+# Unfollower
 Instagram script unfollowe
 
 1- go to your browser settings .
