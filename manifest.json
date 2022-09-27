@@ -1,0 +1,25 @@
+{
+
+ "manifest_version": 2,
+
+ "name": "Instagram UnFollower - MINADO",
+
+ "description": "This extension will unfollow all instagram accounts",
+
+ "version": "1.0",
+ "icons": { "16": "instagram.png",
+          "128": "instagram (1).png" },
+
+"content_scripts": [
+
+ {
+
+ "matches": ["https://*.instagram.com/*"],
+
+ "js": ["unfollow.js"]
+
+ }
+
+ ]
+
+}
